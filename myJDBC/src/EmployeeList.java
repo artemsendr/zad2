@@ -24,7 +24,7 @@ class EmployeeList
 		String eName=rs.getString("ENAME");
 		String job = rs.getString("JOB_TITLE");
 		
-		System.out.println(""+empNo+","+eName+","+job);
+		System.out.println("¹"+empNo+": "+eName+" - "+job);
 		
 	    }
 	    
